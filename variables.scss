@@ -1,0 +1,21 @@
+
+@function color($map,$color-name) {
+  @return map-get($map, $color-name);
+}
+
+$colors: (
+  primary: var(--primary, #297fd8),
+  positive :var(--positive, #00daa0),
+  danger: var(--danger, #f53d3d),
+  ready: var(--danger, #E7CB21),
+  light: var(--light, #ffffff),
+  dark: var(--dark, #222222),
+  shadeOne : var(--shadeOne, rgba(255, 144, 52, 0.77)),
+  shadeTwo : var(--shadeTwo, #8d8d8d),
+  shadeThree : var(--shadeThree, rgba(67, 67, 67, 0.87)),
+  lift : var(--lift, rgba(65, 65, 65, 0.04)),
+  depth : var(--depth, rgba(0, 0, 0, 0.18)),
+  focusBackground : var(--focusBackground, rgba(0, 0, 0, 0.19)),
+);
+
+
